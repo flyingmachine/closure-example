@@ -1,4 +1,4 @@
-h1. Hobbit vs. Giant: An Example of Using Closures in Javascript
+h1. Hobbit vs. Giant: A Tiny Example of Using Closures in Javascript
 
 Your village is being threatened by an evil, ugly giant! The only way to save your village is with... Javascript!
 
