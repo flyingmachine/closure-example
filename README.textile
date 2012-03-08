@@ -2,6 +2,6 @@ h1. Hobbit vs. Giant: An Example of Using Closures in Javascript
 
 Your village is being threatened by an evil, ugly giant! The only way to save your village is with... Javascript!
 
-This small Javascript example is meant to show how you could use closures. To see the example in action, open "index.html" in a browser on your local machine and click the "Attack the giant!" button.
+This small Javascript example is meant to show how you could use closures. To see the example in action, open "index.html" in a browser on your local machine and click the "Attack the giant!" button. Currently, you cannot defeat the giant, you can only whack at him with your tiny hobbit fists.
 
 The javascript contains a lot of comments which hopefully explain everything that's going on.
