@@ -98,12 +98,21 @@ var attack = function(bodyParts) {
 
 // This function returns a function which is used to test whether a
 // body part corresponds to a given target.
+//
 // Notice that a closure is created which includes both
-//  +target+ and +currentPosition+.
+// +target+ and +currentPosition+.
+//
+// If you open your console, you can see the state of
+// +weightAccumulator+ and +target+ as the function is called.
 var targetHitFunction = function(target) {
   var weightAccumulator = 0;
   return function(increment) {
+    if (weightAccumulator == 0) {
+      console.log("");
+      console.log("target: " + target);
+    }
     weightAccumulator += increment;
+    console.log("weightAccumulator: " + weightAccumulator)
     return weightAccumulator > target;
   }
 }
