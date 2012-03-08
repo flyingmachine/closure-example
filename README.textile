@@ -1,0 +1,9 @@
+h1. Hobbit vs. Giant
+
+h2. An Example of Using Closures in Javascript
+
+Your village is being threatened by an evil, ugly giant! The only way to save your village is with... Javascript!
+
+To see the example in action, open "index.html" in a browser on your local machine and click the "Attack the giant!" button.
+
+The JS is explained in comments.
